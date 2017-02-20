@@ -1,11 +1,11 @@
-export class Class1 {
+export class Class2 {
 
     public label:string;
     public text:string;
     
     constructor () {
-        this.label = "truc de merde";
-        this.text = "Lorem ipsum dolor sit amet, consectetur adipiscing elit.";
+        this.label = "label class 2";
+        this.text = "text class 2";
     };
 
     public getLabel():string {
