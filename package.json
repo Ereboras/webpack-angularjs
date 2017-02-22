@@ -11,12 +11,15 @@
   "author": "mco",
   "license": "ISC",
   "devDependencies": {
+    "serve-static": "^1.11.2",
     "source-map-loader": "^0.1.6",
     "webpack": "^2.2.1",
     "webpack-dev-server": "^2.3.0"
   },
   "dependencies": {
     "angular": "^1.6.2",
+    "angular-ui-router": "^0.4.2",
+    "express": "^4.14.1",
     "lodash": "^4.17.4",
     "ts-loader": "^2.0.0",
     "typescript": "^2.1.6"

@@ -2,7 +2,14 @@
     <head>
         <meta charset="utf-8">
     </head>
-    <body>
-        <script type="text/javascript" src="../dist/bundle.js"></script>
+    <body ng-app="authModule">
+        <h1>My awesome app !</h1>
+        <login-component></login-component>
+        <div class="mainScreen" ui-view></div>
+        <script type="text/javascript" src="node_modules/angular/angular.js"></script>
+        <script type="text/javascript" src="node_modules/angular-ui-router/release/angular-ui-router.js"></script>
+        <script type="text/javascript" src="app.js"></script>
+        <script type="text/javascript" src="app.route.js"></script>
+        <script type="text/javascript" src="components/login/login.js"></script>
     </body>
-</html>
+</html> 
