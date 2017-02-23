@@ -1,4 +1,4 @@
-angular.module("authModule").component("homeComponent", {
+export default angular.module("authModule").component("homeComponent", {
     bindings: {
     },
 

@@ -1,5 +1,6 @@
 console.log(" [authModule] Configure routing");
-authModule.config([
+
+angular.module("authModule").config([
 
     "$stateProvider",
     "$locationProvider", 

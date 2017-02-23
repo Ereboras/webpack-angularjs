@@ -1,4 +1,4 @@
-authModule.controller("mainController",  [
+angular.module("authModule").controller("mainController",  [
 
         "$state", 
 

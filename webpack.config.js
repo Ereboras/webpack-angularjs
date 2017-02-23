@@ -1,5 +1,4 @@
 var path = require('path');
-console.log(path.resolve(__dirname, 'app/node_modules'));
 
 module.exports = {
     entry: './app/app.js',
@@ -8,14 +7,15 @@ module.exports = {
         path: path.resolve(__dirname, 'app/dist')
     },
     resolve: {
-        modules: [path.resolve(__dirname, "app"), "node_modules"],
+        modules: [
+            path.resolve(__dirname, "app"),
+            "node_modules"
+        ],
         extensions: ['.ts', '.tsx', '.js'] 
     },
     module: { 
         rules: [
-            { test: /\.tsx?$/, loader: 'ts-loader', exclude: /node_modules/ },
-            { test: /\.js$/, loader: "source-map-loader", enforce: 'pre' },
-            { test: /\.tsx?$/, use: "source-map-loader", enforce: 'pre' }
+            { test: /\.tsx?$/, loader: 'ts-loader', exclude: /node_modules/ }
         ]
     },
     devtool: 'inline-source-map'
