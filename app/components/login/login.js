@@ -15,7 +15,7 @@ angular.module("authModule").component("loginComponent", {
                 this.mdp = "";
             };
 
-            ctrl.connect = function() {
+            ctrl.connect = function() { 
                 console.log("[loginComponent] Connection - email:" + this.email + " mdp:" + this.mdp);
                 $state.go("home");
             };

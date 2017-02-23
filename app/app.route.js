@@ -1,4 +1,4 @@
-console.log(" [authModule] Configure routing");
+console.log(" [authModule] [bundle.js] Configure routing");
 
 angular.module("authModule").config([
 
