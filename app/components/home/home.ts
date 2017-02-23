@@ -23,4 +23,4 @@ class SelectSearchComponent implements ng.IComponentOptions {
     };
 }
 
-export default angular.module("authModule").component("homeComponent", new homeComponent());
+angular.module("authModule").component("homeComponent", new homeComponent());
