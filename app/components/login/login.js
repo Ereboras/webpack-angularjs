@@ -10,7 +10,7 @@ angular.module("authModule").component("loginComponent", {
             "use strict";
             var ctrl = this;
             ctrl.$onInit = function() {
-                console.log(" [loginComponent] Initialize component");
+                console.log(" [loginComponent] [raw js file] Initialize component");
                 this.email = "";
                 this.mdp = "";
             };

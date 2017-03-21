@@ -4,7 +4,7 @@ angular.module("authModule").controller("mainController",  [
 
         function($state) {
             this.initialize = function() {
-                console.log(" [mainController] Initialize controller");
+                console.log(" [mainController] [raw js file] Initialize controller");
                 $state.go("login");
             }
 

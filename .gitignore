@@ -1,0 +1,4 @@
+# Ignore only node_modules
+
+node_modules
+app/dist/bundle.js

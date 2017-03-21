@@ -1,20 +1,14 @@
 console.log(" [authModule] [bundle.js] Configure routing");
 
-angular.module("authModule").config([
+export default function routes($stateProvider, $locationProvider) {
+    $locationProvider.hashPrefix('');
 
-    "$stateProvider",
-    "$locationProvider", 
-
-    function($stateProvider, $locationProvider) {
-        $locationProvider.hashPrefix('');
-
-        $stateProvider
-            .state("login", {
-                url: "/login",
-                component: "loginComponent"
-            }).state("home", {
-                url: "/home",
-                component: "homeComponent"
-            });
-    }
-]);
+    $stateProvider
+        .state("login", {
+            url: "/login",
+            component: "loginComponent"
+        }).state("home", {
+            url: "/home",
+            component: "homeComponent"
+        });
+}

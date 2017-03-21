@@ -8,7 +8,7 @@ class homeController implements ng.IComponentController {
     };
 }
 
-class homeComponent implements ng.IComponentOptions {
+export default class homeComponent implements ng.IComponentOptions {
 
     public bindings: any;
     public controller: ng.Injectable<ng.IControllerConstructor>; 
@@ -23,5 +23,3 @@ class homeComponent implements ng.IComponentOptions {
         this.templateUrl = "components/home/home.html";
     };
 }
-
-angular.module("authModule").component("homeComponent", new homeComponent());
