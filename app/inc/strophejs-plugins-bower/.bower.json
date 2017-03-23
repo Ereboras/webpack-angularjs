@@ -1,0 +1,26 @@
+{
+  "name": "strophejs-plugins-bower",
+  "version": "0.0.5",
+  "ignore": [
+    ".gitignore",
+    ".jshintignore",
+    ".jshintrc",
+    "bower.json",
+    "gruntfile.js",
+    "package.json",
+    "README.markdown"
+  ],
+  "dependencies": {
+    "strophe": ">=1.1.0"
+  },
+  "homepage": "https://github.com/Astray-git/strophejs-plugins",
+  "_release": "0.0.5",
+  "_resolution": {
+    "type": "version",
+    "tag": "0.0.5",
+    "commit": "37f05f1bf6bf660f9b5744e9cc795b94e0db3ac7"
+  },
+  "_source": "https://github.com/Astray-git/strophejs-plugins.git",
+  "_target": "0.0.5",
+  "_originalSource": "strophejs-plugins-bower"
+}

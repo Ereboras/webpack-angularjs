@@ -1,0 +1,52 @@
+{
+  "name": "cloud-strophe.js",
+  "description": "Strophe.js is an XMPP library for JavaScript",
+  "version": "1.2.6",
+  "license": "MIT",
+  "main": "strophe.js",
+  "authors": [
+    "Jack Moffitt"
+  ],
+  "homepage": "http://strophe.im/strophejs",
+  "repository": {
+    "type": "git",
+    "url": "git.opentouchcloud.org/cloud-services/strophejs.git"
+  },
+  "keywords": [
+    "xmpp",
+    "message",
+    "bosh",
+    "websocket",
+    "browser"
+  ],
+  "ignore": [
+    ".*",
+    "release_checklist.txt",
+    "Makefile",
+    "Gruntfile.js",
+    "contrib",
+    "examples",
+    "tests"
+  ],
+  "dependencies": {
+    "sinon": "http://sinonjs.org/releases/sinon-1.12.2.js",
+    "sinon-qunit": "~2.0.0",
+    "qunit": "~1.16.0",
+    "jquery": "1.11.0",
+    "requirejs": "~2.1.15",
+    "almond": "~0.3.0"
+  },
+  "moduleType": [
+    "amd",
+    "globals"
+  ],
+  "_release": "1.2.6",
+  "_resolution": {
+    "type": "version",
+    "tag": "v1.2.6",
+    "commit": "6e797d2aa35c42bde68585aa5e03a2d8b86e2d65"
+  },
+  "_source": "ssh://git@git.opentouchcloud.org:2223/cloud-services/strophejs.git",
+  "_target": "*",
+  "_originalSource": "git+ssh://git@git.opentouchcloud.org:2223/cloud-services/strophejs.git"
+}
