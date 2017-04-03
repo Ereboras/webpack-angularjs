@@ -2,7 +2,7 @@ angular.module("authModule").component("loginComponent", {
     bindings: {
     },
 
-    templateUrl: "components/login/login.html",
+    templateUrl: "./components/login/login.html",
 
     controller: [
         "$state",

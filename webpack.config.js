@@ -11,7 +11,7 @@ module.exports = {
             path.resolve(__dirname, "app"),
             "node_modules"
         ],
-        extensions: ['.ts', '.tsx', '.js'] 
+        extensions: ['.ts', '.js'] 
     },
     module: { 
         rules: [

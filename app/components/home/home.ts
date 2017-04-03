@@ -8,10 +8,10 @@ class homeController implements ng.IComponentController {
     };
 }
 
-export default class homeComponent implements ng.IComponentOptions {
+class homeComponent implements ng.IComponentOptions {
 
     public bindings: any;
-    public controller: ng.Injectable<ng.IControllerConstructor>; 
+    public controller: ng.Injectable<ng.IControllerConstructor>;
     public controllerAs: string;
     public templateUrl: string;
 
@@ -23,3 +23,5 @@ export default class homeComponent implements ng.IComponentOptions {
         this.templateUrl = "components/home/home.html";
     };
 }
+
+export default new homeComponent();
