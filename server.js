@@ -4,7 +4,7 @@ var serveStatic = require('serve-static');
 var dir = "app";
 
 var app = express();
-app.set('port', 8080); 
+app.set('port', 8080);
 
 var serveStaticParams = { index: ["index.html"] };
 

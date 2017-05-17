@@ -1,6 +1,6 @@
 console.log(" [authModule] [bundle.js] Configure routing");
 
-export default function routes($stateProvider, $locationProvider) {
+export default [ "$stateProvider", "$locationProvider", function routes($stateProvider, $locationProvider) {
     $locationProvider.hashPrefix('');
 
     $stateProvider
@@ -11,4 +11,4 @@ export default function routes($stateProvider, $locationProvider) {
             url: "/home",
             component: "homeComponent"
         });
-}
+}]

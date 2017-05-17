@@ -7,7 +7,7 @@ angular.module("authModule").component("loginComponent", {
     controller: [
         "$state",
         function($state) {
-            "use strict";
+            "use strict"; 
             var ctrl = this;
             ctrl.$onInit = function() {
                 console.log(" [loginComponent] [raw js file] Initialize component");
