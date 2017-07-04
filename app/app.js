@@ -9,6 +9,6 @@ import routes from './app.route';
 import homeComponent from './components/home/home';
 
 angular.module("authModule", [  
-    "ui.router"
+    uiRouter
     ]).config(routes)
     .component("homeComponent", homeComponent);

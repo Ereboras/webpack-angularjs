@@ -1,4 +1,3 @@
-import * as angular from 'angular';
 class homeController implements ng.IComponentController {
     public label: string;
 
