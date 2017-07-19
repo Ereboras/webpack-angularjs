@@ -1,3 +1,5 @@
+import './home.scss';
+
 class homeController implements ng.IComponentController {
     public label: string;
 

@@ -1,0 +1,10 @@
+#blockInput {
+    display: flex;
+    flex-flow: column;
+    .lineInput {
+        display: flex;
+        justify-content: space-between;
+        width: 300px;
+        margin-bottom: 10px;
+    }
+}
